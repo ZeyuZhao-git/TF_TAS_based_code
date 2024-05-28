@@ -1,0 +1,13 @@
+#torch==1.7.0
+torch
+#timm==0.3.2
+timm
+scikit-image
+ptflops
+easydict
+PyYAML
+#pillow==6.1.0
+pillow
+#torchvision==0.2.1
+torchvision
+opencv-python

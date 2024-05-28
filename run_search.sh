@@ -1,0 +1,1 @@
+nohup python3 -m torch.distributed.launch --nproc_per_node=4 --use_env search_autoformer.py > /home/zzy/TF_TAS/all_output/get_ken_output_S/SEED_3/cal_tf/output.log 2> /home/zzy/TF_TAS/all_output/get_ken_output_S/SEED_3/cal_tf/error.log &

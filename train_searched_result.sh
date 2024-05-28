@@ -1,0 +1,2 @@
+# retrain命令
+nohup python3 -m torch.distributed.launch --nproc_per_node=4 --use_env train.py --data-path '/data02/ImageNet2012' --gp --change_qk --relative_position --mode retrain --model_type 'AUTOFORMER' --dist-eval --cfg '/home/zzy/TF_TAS/experiments/subnet_autoformer/MZ-NAS.yaml' --output_dir '/home/zzy/TF_TAS/all_output/evo/0/retrain_result' > /home/zzy/TF_TAS/all_output/evo/0/retrain_result/output.log 2> /home/zzy/TF_TAS/all_output/evo/0/retrain_result/error.log &
